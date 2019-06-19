@@ -33,7 +33,6 @@
       <li>Action</li>
       <li>asfasfasfasfaf</li>
       <li>Act</li>
-      <li>jopa</li>
       <li>saffasfasf</li>
     </ul>
   </aside>
