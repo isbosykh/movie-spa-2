@@ -8,6 +8,16 @@ function get(url, data) {
         .then(response => response.json())
 }
 
-export function genres() {
-    return get('https://api.themoviedb.org/3/genre/movie/list')
+export function genres(type) {
+    switch (type) {
+        case 'movie':
+            return get(`https://api.themoviedb.org/3/genre/movie/list`);
+        case 'tv':
+            return get(`https://api.themoviedb.org/3/genre/tv/list`);
+        default:
+            return function () {
+                get(`https://api.themoviedb.org/3/genre/movie/list`);
+                get(`https://api.themoviedb.org/3/genre/type/list`);
+            }
+    }
 }

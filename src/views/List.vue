@@ -24,7 +24,7 @@ export default {
   mounted() {
     this.$store.dispatch("getGenres");
   },
-  data: function f() {
+  data: function() {
     return {}
   }
 };

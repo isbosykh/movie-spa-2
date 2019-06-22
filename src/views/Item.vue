@@ -26,50 +26,43 @@
             Cast & Crew
             <small> <router-link to="/cast">show all -></router-link></small>
           </h1>
-          <swiper :options="swiperOption" class="cast">
-            <swiper-slide class="castItem">
+          <div class="cast">
+            <div class="castItem">
               <img src="#" alt="" />
               <div>
                 <h4>Aloa-sdfh afgg</h4>
                 <h5>Saske</h5>
               </div>
-            </swiper-slide>
-            <swiper-slide class="castItem">
+            </div>
+            <div class="castItem">
               <img src="#" alt="" />
               <div>
                 <h4>Aloa-sdfh afgg</h4>
                 <h5>Saske</h5>
               </div>
-            </swiper-slide>
-            <swiper-slide class="castItem">
+            </div>
+            <div class="castItem">
               <img src="#" alt="" />
               <div>
                 <h4>Aloa-sdfh afgg</h4>
                 <h5>Saske</h5>
               </div>
-            </swiper-slide>
-            <swiper-slide class="castItem">
+            </div>
+            <div class="castItem">
               <img src="#" alt="" />
               <div>
                 <h4>Aloa-sdfh afgg</h4>
                 <h5>Saske</h5>
               </div>
-            </swiper-slide>
-            <swiper-slide class="castItem">
+            </div>
+            <div class="castItem">
               <img src="#" alt="" />
               <div>
                 <h4>Aloa-sdfh afgg</h4>
                 <h5>Saske</h5>
               </div>
-            </swiper-slide>
-            <swiper-slide class="castItem">
-              <img src="#" alt="" />
-              <div>
-                <h4>Aloa-sdfh afgg</h4>
-                <h5>Saske</h5>
-              </div>
-            </swiper-slide>
-          </swiper>
+            </div>
+          </div>
         </div>
         <div class="media">
           <h1>
@@ -177,7 +170,7 @@ export default {
       right: 0;
       top: 0;
       margin: -25px -10px;
-      font-size: 6rem;
+      font-size: 4.875rem;
       color: $op-color;
     }
 
@@ -308,7 +301,7 @@ export default {
             display: block;
             width: 118px;
             height: 193px;
-            border-radius: $border-radius;
+            border-radius: $border-radius - 3;
           }
 
           div {
@@ -379,7 +372,7 @@ export default {
 
   aside {
     width: 280px;
-    height: 920px;
+    height: calc(100vh - 40px);
     background-color: transparent;
     border-radius: $border-radius;
     border: 1px solid $border-color;
