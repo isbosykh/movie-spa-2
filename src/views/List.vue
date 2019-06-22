@@ -12,7 +12,7 @@
 import HeaderComponent from "@/components/Header_";
 import ListComponent from "@/components/List/List";
 import FiltersComponent from "@/components/List/Filters";
-import get from "../api";
+import {getGenres} from "../api";
 
 export default {
   name: "home",
@@ -22,7 +22,10 @@ export default {
     HeaderComponent
   },
   mounted() {
-    get();
+    this.$store.dispatch("getGenres");
+  },
+  data: function f() {
+    return {}
   }
 };
 </script>

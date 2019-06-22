@@ -31,9 +31,9 @@
 
     <ul>
       <li>Action</li>
-      <li>asfasfasfasfaf</li>
-      <li>Act</li>
-      <li>saffasfasf</li>
+      <li>Action</li>
+      <li>Action</li>
+      <li>Action</li>
     </ul>
   </aside>
 </template>

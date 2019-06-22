@@ -3,7 +3,7 @@
     <HeaderComponent />
     <div class="wrapper">
       <header>
-        <router-link to="/item">Back to main</router-link>
+        <router-link to="/item"><- Back to main</router-link>
         <h1>So long film name will be here</h1>
       </header>
       <div class="content">
